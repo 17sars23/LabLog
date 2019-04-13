@@ -1,0 +1,6 @@
+framework module Pods_LabLog {
+  umbrella header "Pods-LabLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
