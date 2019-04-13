@@ -5,7 +5,123 @@
 	<key>logFormatVersion</key>
 	<integer>9</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>32A51481-D4A6-493B-89AA-1640BE4999DB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>32A51481-D4A6-493B-89AA-1640BE4999DB.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>nanopb-cbwokoudfzrkbyalbxknpyvwiyqv</string>
+			<key>timeStartedRecording</key>
+			<real>576750648.12493896</real>
+			<key>timeStoppedRecording</key>
+			<real>576750651.74347103</real>
+			<key>title</key>
+			<string>Build target nanopb</string>
+			<key>uniqueIdentifier</key>
+			<string>32A51481-D4A6-493B-89AA-1640BE4999DB</string>
+		</dict>
+		<key>4E7873E6-528E-409A-8C44-33B8ADE37550</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>4E7873E6-528E-409A-8C44-33B8ADE37550.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>GoogleToolboxForMac-cbwokoudfzrkbyalbxknpyvwiyqv</string>
+			<key>timeStartedRecording</key>
+			<real>576750648.14670503</real>
+			<key>timeStoppedRecording</key>
+			<real>576750651.810305</real>
+			<key>title</key>
+			<string>Build target GoogleToolboxForMac</string>
+			<key>uniqueIdentifier</key>
+			<string>4E7873E6-528E-409A-8C44-33B8ADE37550</string>
+		</dict>
+		<key>7E9248C5-4EC4-4F0B-9B25-4EF679F2409E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>7E9248C5-4EC4-4F0B-9B25-4EF679F2409E.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>Pods-LabLog-cbwokoudfzrkbyalbxknpyvwiyqv</string>
+			<key>timeStartedRecording</key>
+			<real>576750655.13283396</real>
+			<key>timeStoppedRecording</key>
+			<real>576750656.30421102</real>
+			<key>title</key>
+			<string>Build target Pods-LabLog</string>
+			<key>uniqueIdentifier</key>
+			<string>7E9248C5-4EC4-4F0B-9B25-4EF679F2409E</string>
+		</dict>
+		<key>947C8943-5291-44CE-A2A0-69E5DC2B1BB6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>947C8943-5291-44CE-A2A0-69E5DC2B1BB6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>LabLog-fcqdqyxiqcgsqrcdhlwuddfezfde</string>
+			<key>timeStartedRecording</key>
+			<real>576750656.28896904</real>
+			<key>timeStoppedRecording</key>
+			<real>576750661.856215</real>
+			<key>title</key>
+			<string>Build target LabLog</string>
+			<key>uniqueIdentifier</key>
+			<string>947C8943-5291-44CE-A2A0-69E5DC2B1BB6</string>
+		</dict>
+		<key>FB52D143-C1CD-422E-90BF-38C8AE6B91B6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.framework</string>
+			<key>fileName</key>
+			<string>FB52D143-C1CD-422E-90BF-38C8AE6B91B6.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>signature</key>
+			<string>FirebaseCore-cbwokoudfzrkbyalbxknpyvwiyqv</string>
+			<key>timeStartedRecording</key>
+			<real>576750651.79924202</real>
+			<key>timeStoppedRecording</key>
+			<real>576750655.14153695</real>
+			<key>title</key>
+			<string>Build target FirebaseCore</string>
+			<key>uniqueIdentifier</key>
+			<string>FB52D143-C1CD-422E-90BF-38C8AE6B91B6</string>
+		</dict>
+	</dict>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
