@@ -12,7 +12,7 @@
 		581D1C8BD95AE43F352AEF5B /* Pods_LabLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A84B80D1FED55DED686F8E /* Pods_LabLog.framework */; };
 		66E1D12322607B9000E17BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D12222607B9000E17BBD /* AppDelegate.swift */; };
 		66E1D12522607B9000E17BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D12422607B9000E17BBD /* ViewController.swift */; };
-		66E1D12822607B9000E17BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12622607B9000E17BBD /* Main.storyboard */; };
+		66E1D12822607B9000E17BBD /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12622607B9000E17BBD /* LoginView.storyboard */; };
 		66E1D12B22607B9000E17BBD /* LabLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D12922607B9000E17BBD /* LabLog.xcdatamodeld */; };
 		66E1D12D22607B9100E17BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12C22607B9100E17BBD /* Assets.xcassets */; };
 		66E1D13022607B9100E17BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */; };
@@ -48,7 +48,7 @@
 		66E1D11F22607B8F00E17BBD /* LabLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E1D12222607B9000E17BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66E1D12422607B9000E17BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66E1D12722607B9000E17BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66E1D12722607B9000E17BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginView.storyboard; sourceTree = "<group>"; };
 		66E1D12A22607B9000E17BBD /* LabLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabLog.xcdatamodel; sourceTree = "<group>"; };
 		66E1D12C22607B9100E17BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66E1D12F22607B9100E17BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 				66E1D153226082FF00E17BBD /* GoogleService-Info.plist */,
 				66E1D12222607B9000E17BBD /* AppDelegate.swift */,
 				66E1D12422607B9000E17BBD /* ViewController.swift */,
-				66E1D12622607B9000E17BBD /* Main.storyboard */,
+				66E1D12622607B9000E17BBD /* LoginView.storyboard */,
 				66E1D12C22607B9100E17BBD /* Assets.xcassets */,
 				66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */,
 				66E1D13122607B9100E17BBD /* Info.plist */,
@@ -309,7 +309,7 @@
 				66E1D154226082FF00E17BBD /* GoogleService-Info.plist in Resources */,
 				66E1D12D22607B9100E17BBD /* Assets.xcassets in Resources */,
 				D642715522656F7A002B27CF /* LabLog_Login.png in Resources */,
-				66E1D12822607B9000E17BBD /* Main.storyboard in Resources */,
+				66E1D12822607B9000E17BBD /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,12 +516,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		66E1D12622607B9000E17BBD /* Main.storyboard */ = {
+		66E1D12622607B9000E17BBD /* LoginView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				66E1D12722607B9000E17BBD /* Base */,
 			);
-			name = Main.storyboard;
+			name = LoginView.storyboard;
 			sourceTree = "<group>";
 		};
 		66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */ = {
