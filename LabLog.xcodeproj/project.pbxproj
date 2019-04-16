@@ -19,6 +19,7 @@
 		66E1D13B22607B9100E17BBD /* LabLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D13A22607B9100E17BBD /* LabLogTests.swift */; };
 		66E1D14622607B9100E17BBD /* LabLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D14522607B9100E17BBD /* LabLogUITests.swift */; };
 		66E1D154226082FF00E17BBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D153226082FF00E17BBD /* GoogleService-Info.plist */; };
+		66E1D15622625A4100E17BBD /* PersonalScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D15522625A4100E17BBD /* PersonalScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		66E1D14522607B9100E17BBD /* LabLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabLogUITests.swift; sourceTree = "<group>"; };
 		66E1D14722607B9100E17BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E1D153226082FF00E17BBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		66E1D15522625A4100E17BBD /* PersonalScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalScoreViewController.swift; sourceTree = "<group>"; };
 		80C6B9D2DA601E5D60DCD205 /* Pods-LabLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabLog/Pods-LabLog.debug.xcconfig"; sourceTree = "<group>"; };
 		BFCAE35FEF390A94EB127E17 /* Pods_LabLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA19EFBFD13B3E192A42DC4 /* Pods-LabLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabLogUITests/Pods-LabLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				66E1D153226082FF00E17BBD /* GoogleService-Info.plist */,
 				66E1D12222607B9000E17BBD /* AppDelegate.swift */,
 				66E1D12422607B9000E17BBD /* ViewController.swift */,
+				66E1D15522625A4100E17BBD /* PersonalScoreViewController.swift */,
 				66E1D12622607B9000E17BBD /* Main.storyboard */,
 				66E1D12C22607B9100E17BBD /* Assets.xcassets */,
 				66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */,
@@ -310,12 +313,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LabLog/Pods-LabLog-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E1D12B22607B9000E17BBD /* LabLog.xcdatamodeld in Sources */,
+				66E1D15622625A4100E17BBD /* PersonalScoreViewController.swift in Sources */,
 				66E1D12522607B9000E17BBD /* ViewController.swift in Sources */,
 				66E1D12322607B9000E17BBD /* AppDelegate.swift in Sources */,
 			);

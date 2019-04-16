@@ -7,6 +7,7 @@ target 'LabLog' do
 
   # Pods for LabLog
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
 
   target 'LabLogTests' do
     inherit! :search_paths
