@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>C3793D3A-4393-4C5E-8E03-9E1A74A70379</key>
+		<key>1805F073-91A9-46C5-988F-882973DE83A5</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C3793D3A-4393-4C5E-8E03-9E1A74A70379.xcactivitylog</string>
+			<string>1805F073-91A9-46C5-988F-882973DE83A5.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Build LabLog</string>
 			<key>timeStartedRecording</key>
-			<real>577011292.85315299</real>
+			<real>577144876.60030794</real>
 			<key>timeStoppedRecording</key>
-			<real>577011293.85240304</real>
+			<real>577144883.90430295</real>
 			<key>title</key>
 			<string>Build LabLog</string>
 			<key>uniqueIdentifier</key>
-			<string>C3793D3A-4393-4C5E-8E03-9E1A74A70379</string>
+			<string>1805F073-91A9-46C5-988F-882973DE83A5</string>
+		</dict>
+		<key>9846D780-BABD-4E22-9528-938FDD5AFD83</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9846D780-BABD-4E22-9528-938FDD5AFD83.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LabLog project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LabLog</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LabLog</string>
+			<key>timeStartedRecording</key>
+			<real>577145121.90599597</real>
+			<key>timeStoppedRecording</key>
+			<real>577145137.77199697</real>
+			<key>title</key>
+			<string>Build LabLog</string>
+			<key>uniqueIdentifier</key>
+			<string>9846D780-BABD-4E22-9528-938FDD5AFD83</string>
 		</dict>
 	</dict>
 </dict>

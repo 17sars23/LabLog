@@ -10,9 +10,16 @@
 		0CA64940E80AAF0C4FB4FDDE /* Pods_LabLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCAE35FEF390A94EB127E17 /* Pods_LabLogUITests.framework */; };
 		12C65F39D843D538D6153350 /* Pods_LabLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AAE31FE56F7F26A449FF4B4 /* Pods_LabLogTests.framework */; };
 		581D1C8BD95AE43F352AEF5B /* Pods_LabLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A84B80D1FED55DED686F8E /* Pods_LabLog.framework */; };
+		6644F3382265A0F600864706 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6644F3372265A0F600864706 /* LoginView.storyboard */; };
+		6644F33B2265A10E00864706 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644F3392265A10E00864706 /* LoginViewController.swift */; };
+		6644F33C2265A10E00864706 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6644F33A2265A10E00864706 /* TopViewController.swift */; };
+		66CE55BA22667EC600420F33 /* GroupRankingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CE55B922667EC600420F33 /* GroupRankingView.storyboard */; };
+		66CE55BC22667F0100420F33 /* GroupRankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE55BB22667F0100420F33 /* GroupRankingViewController.swift */; };
+		66CE55BE22667F9C00420F33 /* PageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CE55BD22667F9C00420F33 /* PageView.storyboard */; };
+		66CE55C02266806000420F33 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CE55BF2266806000420F33 /* PageViewController.swift */; };
 		66E1D12322607B9000E17BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D12222607B9000E17BBD /* AppDelegate.swift */; };
 		66E1D12522607B9000E17BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D12422607B9000E17BBD /* ViewController.swift */; };
-		66E1D12822607B9000E17BBD /* PesonalScore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12622607B9000E17BBD /* PesonalScore.storyboard */; };
+		66E1D12822607B9000E17BBD /* PersonalScoreView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12622607B9000E17BBD /* PersonalScoreView.storyboard */; };
 		66E1D12B22607B9000E17BBD /* LabLog.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D12922607B9000E17BBD /* LabLog.xcdatamodeld */; };
 		66E1D12D22607B9100E17BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12C22607B9100E17BBD /* Assets.xcassets */; };
 		66E1D13022607B9100E17BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */; };
@@ -41,10 +48,17 @@
 
 /* Begin PBXFileReference section */
 		0AAE31FE56F7F26A449FF4B4 /* Pods_LabLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6644F3372265A0F600864706 /* LoginView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
+		6644F3392265A10E00864706 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../../Downloads/LoginViewController.swift; sourceTree = "<group>"; };
+		6644F33A2265A10E00864706 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopViewController.swift; path = ../../../../../Downloads/TopViewController.swift; sourceTree = "<group>"; };
+		66CE55B922667EC600420F33 /* GroupRankingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GroupRankingView.storyboard; sourceTree = "<group>"; };
+		66CE55BB22667F0100420F33 /* GroupRankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupRankingViewController.swift; sourceTree = "<group>"; };
+		66CE55BD22667F9C00420F33 /* PageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PageView.storyboard; sourceTree = "<group>"; };
+		66CE55BF2266806000420F33 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		66E1D11F22607B8F00E17BBD /* LabLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E1D12222607B9000E17BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66E1D12422607B9000E17BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		66E1D12722607B9000E17BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PesonalScore.storyboard; sourceTree = "<group>"; };
+		66E1D12722607B9000E17BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PersonalScoreView.storyboard; sourceTree = "<group>"; };
 		66E1D12A22607B9000E17BBD /* LabLog.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LabLog.xcdatamodel; sourceTree = "<group>"; };
 		66E1D12C22607B9100E17BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66E1D12F22607B9100E17BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,15 +144,22 @@
 		66E1D12122607B8F00E17BBD /* LabLog */ = {
 			isa = PBXGroup;
 			children = (
+				6644F3392265A10E00864706 /* LoginViewController.swift */,
+				6644F33A2265A10E00864706 /* TopViewController.swift */,
+				6644F3372265A0F600864706 /* LoginView.storyboard */,
 				66E1D153226082FF00E17BBD /* GoogleService-Info.plist */,
 				66E1D12222607B9000E17BBD /* AppDelegate.swift */,
 				66E1D12422607B9000E17BBD /* ViewController.swift */,
 				66E1D15522625A4100E17BBD /* PersonalScoreViewController.swift */,
-				66E1D12622607B9000E17BBD /* PesonalScore.storyboard */,
+				66E1D12622607B9000E17BBD /* PersonalScoreView.storyboard */,
 				66E1D12C22607B9100E17BBD /* Assets.xcassets */,
 				66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */,
 				66E1D13122607B9100E17BBD /* Info.plist */,
 				66E1D12922607B9000E17BBD /* LabLog.xcdatamodeld */,
+				66CE55B922667EC600420F33 /* GroupRankingView.storyboard */,
+				66CE55BB22667F0100420F33 /* GroupRankingViewController.swift */,
+				66CE55BD22667F9C00420F33 /* PageView.storyboard */,
+				66CE55BF2266806000420F33 /* PageViewController.swift */,
 			);
 			path = LabLog;
 			sourceTree = "<group>";
@@ -186,6 +207,7 @@
 				66E1D11C22607B8F00E17BBD /* Frameworks */,
 				66E1D11D22607B8F00E17BBD /* Resources */,
 				1FBCFB7AD8FB34BB2DC5C56B /* [CP] Embed Pods Frameworks */,
+				11A18E34A331FFD2FBF76582 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,10 +304,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CE55BA22667EC600420F33 /* GroupRankingView.storyboard in Resources */,
 				66E1D13022607B9100E17BBD /* LaunchScreen.storyboard in Resources */,
+				66CE55BE22667F9C00420F33 /* PageView.storyboard in Resources */,
 				66E1D154226082FF00E17BBD /* GoogleService-Info.plist in Resources */,
 				66E1D12D22607B9100E17BBD /* Assets.xcassets in Resources */,
-				66E1D12822607B9000E17BBD /* PesonalScore.storyboard in Resources */,
+				66E1D12822607B9000E17BBD /* PersonalScoreView.storyboard in Resources */,
+				6644F3382265A0F600864706 /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +331,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		11A18E34A331FFD2FBF76582 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LabLog/Pods-LabLog-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabLog/Pods-LabLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1FBCFB7AD8FB34BB2DC5C56B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,13 +372,37 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LabLog/Pods-LabLog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -389,10 +472,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6644F33C2265A10E00864706 /* TopViewController.swift in Sources */,
+				66CE55BC22667F0100420F33 /* GroupRankingViewController.swift in Sources */,
 				66E1D12B22607B9000E17BBD /* LabLog.xcdatamodeld in Sources */,
 				66E1D15622625A4100E17BBD /* PersonalScoreViewController.swift in Sources */,
 				66E1D12522607B9000E17BBD /* ViewController.swift in Sources */,
+				6644F33B2265A10E00864706 /* LoginViewController.swift in Sources */,
 				66E1D12322607B9000E17BBD /* AppDelegate.swift in Sources */,
+				66CE55C02266806000420F33 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +515,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		66E1D12622607B9000E17BBD /* PesonalScore.storyboard */ = {
+		66E1D12622607B9000E17BBD /* PersonalScoreView.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				66E1D12722607B9000E17BBD /* Base */,
 			);
-			name = PesonalScore.storyboard;
+			name = PersonalScoreView.storyboard;
 			sourceTree = "<group>";
 		};
 		66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */ = {
@@ -502,6 +589,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -556,6 +645,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -572,6 +663,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = LabLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -593,6 +685,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6JB2SDQGN3;
 				INFOPLIST_FILE = LabLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

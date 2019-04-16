@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>B40D4A17-ECF4-469D-B088-7AD25E250C26</key>
+		<key>8C31406E-05DF-4734-B450-BFCAAEF0F5FE</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>B40D4A17-ECF4-469D-B088-7AD25E250C26.xcactivitylog</string>
+			<string>8C31406E-05DF-4734-B450-BFCAAEF0F5FE.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>S</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Debug LabLog</string>
 			<key>timeStartedRecording</key>
-			<real>577011293.75673401</real>
+			<real>577144845.23468697</real>
 			<key>timeStoppedRecording</key>
-			<real>577021172.30286205</real>
+			<real>577144876.68926406</real>
 			<key>title</key>
 			<string>Debug LabLog</string>
 			<key>uniqueIdentifier</key>
-			<string>B40D4A17-ECF4-469D-B088-7AD25E250C26</string>
+			<string>8C31406E-05DF-4734-B450-BFCAAEF0F5FE</string>
+		</dict>
+		<key>90759DF6-9C7B-408E-9F40-B3E3B506EBDF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>90759DF6-9C7B-408E-9F40-B3E3B506EBDF.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LabLog project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LabLog</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug LabLog</string>
+			<key>timeStartedRecording</key>
+			<real>577145137.67320502</real>
+			<key>timeStoppedRecording</key>
+			<real>577145710.12248802</real>
+			<key>title</key>
+			<string>Debug LabLog</string>
+			<key>uniqueIdentifier</key>
+			<string>90759DF6-9C7B-408E-9F40-B3E3B506EBDF</string>
 		</dict>
 	</dict>
 </dict>
