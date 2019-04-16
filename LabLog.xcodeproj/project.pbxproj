@@ -19,6 +19,11 @@
 		66E1D13B22607B9100E17BBD /* LabLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D13A22607B9100E17BBD /* LabLogTests.swift */; };
 		66E1D14622607B9100E17BBD /* LabLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E1D14522607B9100E17BBD /* LabLogUITests.swift */; };
 		66E1D154226082FF00E17BBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66E1D153226082FF00E17BBD /* GoogleService-Info.plist */; };
+		D642715122656E70002B27CF /* LabLog_demo.png in Resources */ = {isa = PBXBuildFile; fileRef = D642715022656E70002B27CF /* LabLog_demo.png */; };
+		D642715522656F7A002B27CF /* LabLog_Login.png in Resources */ = {isa = PBXBuildFile; fileRef = D642715422656F79002B27CF /* LabLog_Login.png */; };
+		D64271572265732D002B27CF /* IBDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64271562265732D002B27CF /* IBDesignableView.swift */; };
+		D642715922657B39002B27CF /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D642715822657B39002B27CF /* TopViewController.swift */; };
+		D6BDF300226381D8005FB56F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDF2FF226381D8005FB56F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		BFCAE35FEF390A94EB127E17 /* Pods_LabLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA19EFBFD13B3E192A42DC4 /* Pods-LabLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LabLogUITests/Pods-LabLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D3D3E956830DE6E4A2A9E4E6 /* Pods-LabLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabLogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabLogUITests/Pods-LabLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D642715022656E70002B27CF /* LabLog_demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LabLog_demo.png; path = img/LabLog_demo.png; sourceTree = SOURCE_ROOT; };
+		D642715422656F79002B27CF /* LabLog_Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LabLog_Login.png; path = img/LabLog_Login.png; sourceTree = SOURCE_ROOT; };
+		D64271562265732D002B27CF /* IBDesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableView.swift; sourceTree = "<group>"; };
+		D642715822657B39002B27CF /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		D6BDF2FF226381D8005FB56F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E1A84B80D1FED55DED686F8E /* Pods_LabLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LabLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80A49EADB5E5A12324406A6 /* Pods-LabLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabLogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabLogTests/Pods-LabLogTests.release.xcconfig"; sourceTree = "<group>"; };
 		EE843260EC1E4123EFE979B8 /* Pods-LabLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LabLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-LabLog/Pods-LabLog.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +116,7 @@
 		66E1D11622607B8F00E17BBD = {
 			isa = PBXGroup;
 			children = (
+				D642714F22656E5C002B27CF /* img */,
 				66E1D12122607B8F00E17BBD /* LabLog */,
 				66E1D13922607B9100E17BBD /* LabLogTests */,
 				66E1D14422607B9100E17BBD /* LabLogUITests */,
@@ -136,6 +147,9 @@
 				66E1D12E22607B9100E17BBD /* LaunchScreen.storyboard */,
 				66E1D13122607B9100E17BBD /* Info.plist */,
 				66E1D12922607B9000E17BBD /* LabLog.xcdatamodeld */,
+				D6BDF2FF226381D8005FB56F /* LoginViewController.swift */,
+				D64271562265732D002B27CF /* IBDesignableView.swift */,
+				D642715822657B39002B27CF /* TopViewController.swift */,
 			);
 			path = LabLog;
 			sourceTree = "<group>";
@@ -171,6 +185,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D642714F22656E5C002B27CF /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D642715422656F79002B27CF /* LabLog_Login.png */,
+				D642715022656E70002B27CF /* LabLog_demo.png */,
+			);
+			name = img;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +207,7 @@
 				66E1D11C22607B8F00E17BBD /* Frameworks */,
 				66E1D11D22607B8F00E17BBD /* Resources */,
 				1FBCFB7AD8FB34BB2DC5C56B /* [CP] Embed Pods Frameworks */,
+				A4279335E4C61436CD31A64A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,8 +305,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E1D13022607B9100E17BBD /* LaunchScreen.storyboard in Resources */,
+				D642715122656E70002B27CF /* LabLog_demo.png in Resources */,
 				66E1D154226082FF00E17BBD /* GoogleService-Info.plist in Resources */,
 				66E1D12D22607B9100E17BBD /* Assets.xcassets in Resources */,
+				D642715522656F7A002B27CF /* LabLog_Login.png in Resources */,
 				66E1D12822607B9000E17BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,18 +336,44 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LabLog/Pods-LabLog-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LabLog/Pods-LabLog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LabLog/Pods-LabLog-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabLog/Pods-LabLog-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5F487EE1D0955A6B1F234CCB /* [CP] Check Pods Manifest.lock */ = {
@@ -339,6 +392,44 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4279335E4C61436CD31A64A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LabLog/Pods-LabLog-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LabLog/Pods-LabLog-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA9701BCE52581634F8B100A /* [CP] Check Pods Manifest.lock */ = {
@@ -384,6 +475,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D642715922657B39002B27CF /* TopViewController.swift in Sources */,
+				D64271572265732D002B27CF /* IBDesignableView.swift in Sources */,
+				D6BDF300226381D8005FB56F /* LoginViewController.swift in Sources */,
 				66E1D12B22607B9000E17BBD /* LabLog.xcdatamodeld in Sources */,
 				66E1D12522607B9000E17BBD /* ViewController.swift in Sources */,
 				66E1D12322607B9000E17BBD /* AppDelegate.swift in Sources */,
@@ -496,6 +590,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -550,6 +646,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-Objc";
+				"OTHER_LDFLAGS[arch=*]" = "-Objc";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -564,7 +662,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				DEVELOPMENT_TEAM = AQ2RXWD63X;
 				INFOPLIST_FILE = LabLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -585,7 +683,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6JB2SDQGN3;
+				DEVELOPMENT_TEAM = AQ2RXWD63X;
 				INFOPLIST_FILE = LabLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -10,35 +10,83 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LabLog" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="LabLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LabLog_Login.png" translatesAutoresizingMaskIntoConstraints="NO" id="plb-WE-hlY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fq-W9-Wk0">
+                                <rect key="frame" x="37" y="474" width="302" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.22352941176470587" green="0.70980392156862748" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="26"/>
+                                <state key="normal" title="Log in">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="plb-WE-hlY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RKP-HP-3Ut"/>
+                            <constraint firstItem="plb-WE-hlY" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lVf-34-XST"/>
+                            <constraint firstItem="plb-WE-hlY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="m7D-yw-T0K"/>
+                            <constraint firstItem="plb-WE-hlY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rQA-Bi-5qZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="AuthButton" destination="3fq-W9-Wk0" id="rV8-qV-1ai"/>
+                        <segue destination="ACF-NW-B8o" kind="show" identifier="toTopView" id="Eqz-M1-3RV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-236" y="230"/>
+            <point key="canvasLocation" x="-324" y="472.71364317841085"/>
         </scene>
-        <!--View Controller-->
+        <!--Top View Controller-->
         <scene sceneID="x9V-Jn-ne9">
             <objects>
-                <viewController id="ACF-NW-B8o" sceneMemberID="viewController">
+                <viewController id="ACF-NW-B8o" customClass="TopViewController" customModule="LabLog" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ag5-O1-igE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ログインできたで" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfv-x5-4du">
+                                <rect key="frame" x="118" y="227" width="139" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="anu-B0-M6N">
+                                <rect key="frame" x="70" y="308" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTI-aM-V2a">
+                                <rect key="frame" x="144" y="323" width="143" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="42B-Pt-cm8"/>
                     </view>
+                    <connections>
+                        <outlet property="usrIcon" destination="anu-B0-M6N" id="aRN-a1-78F"/>
+                        <outlet property="usrId" destination="BTI-aM-V2a" id="fqb-di-fsc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hb4-l0-ho5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833" y="767"/>
+            <point key="canvasLocation" x="832.79999999999995" y="766.86656671664173"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mKB-WH-ton">
@@ -86,4 +134,7 @@
             <point key="canvasLocation" x="833" y="-329"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LabLog_Login.png" width="3126" height="5559"/>
+    </resources>
 </document>
