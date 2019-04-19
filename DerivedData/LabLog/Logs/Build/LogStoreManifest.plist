@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>1805F073-91A9-46C5-988F-882973DE83A5</key>
+		<key>634586F5-6254-4247-A27A-D1E098787DCC</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1805F073-91A9-46C5-988F-882973DE83A5.xcactivitylog</string>
+			<string>634586F5-6254-4247-A27A-D1E098787DCC.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Build LabLog</string>
 			<key>timeStartedRecording</key>
-			<real>577144876.60030794</real>
+			<real>577340237.26744294</real>
 			<key>timeStoppedRecording</key>
-			<real>577144883.90430295</real>
+			<real>577340243.65997696</real>
 			<key>title</key>
 			<string>Build LabLog</string>
 			<key>uniqueIdentifier</key>
-			<string>1805F073-91A9-46C5-988F-882973DE83A5</string>
+			<string>634586F5-6254-4247-A27A-D1E098787DCC</string>
 		</dict>
-		<key>9846D780-BABD-4E22-9528-938FDD5AFD83</key>
+		<key>782AF819-7542-405A-BFDA-1F92A4F406A0</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9846D780-BABD-4E22-9528-938FDD5AFD83.xcactivitylog</string>
+			<string>782AF819-7542-405A-BFDA-1F92A4F406A0.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,71 @@
 			<key>signature</key>
 			<string>Build LabLog</string>
 			<key>timeStartedRecording</key>
-			<real>577145121.90599597</real>
+			<real>577177609.89822805</real>
 			<key>timeStoppedRecording</key>
-			<real>577145137.77199697</real>
+			<real>577177664.26792395</real>
 			<key>title</key>
 			<string>Build LabLog</string>
 			<key>uniqueIdentifier</key>
-			<string>9846D780-BABD-4E22-9528-938FDD5AFD83</string>
+			<string>782AF819-7542-405A-BFDA-1F92A4F406A0</string>
+		</dict>
+		<key>9D5989FB-B02B-4D2B-BD9B-A109B5E82D85</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9D5989FB-B02B-4D2B-BD9B-A109B5E82D85.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LabLog project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LabLog</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LabLog</string>
+			<key>timeStartedRecording</key>
+			<real>577340187.299353</real>
+			<key>timeStoppedRecording</key>
+			<real>577340195.84083903</real>
+			<key>title</key>
+			<string>Build LabLog</string>
+			<key>uniqueIdentifier</key>
+			<string>9D5989FB-B02B-4D2B-BD9B-A109B5E82D85</string>
+		</dict>
+		<key>DE91A089-6FC9-4930-B3F2-26DED4D8E3B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DE91A089-6FC9-4930-B3F2-26DED4D8E3B0.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>LabLog project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>LabLog</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build LabLog</string>
+			<key>timeStartedRecording</key>
+			<real>577339469.77314305</real>
+			<key>timeStoppedRecording</key>
+			<real>577339523.58447897</real>
+			<key>title</key>
+			<string>Build LabLog</string>
+			<key>uniqueIdentifier</key>
+			<string>DE91A089-6FC9-4930-B3F2-26DED4D8E3B0</string>
 		</dict>
 	</dict>
 </dict>

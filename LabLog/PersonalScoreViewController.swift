@@ -8,43 +8,71 @@
 
 import UIKit
 import FirebaseDatabase
+import FirebaseUI
 
 class PersonalScoreViewController: UIViewController {
     
     var databaseRef: DatabaseReference!
+    
+    var userId:String = ""
     
     @IBOutlet var entryButton: UIButton!
     @IBOutlet var personalScoreView: UILabel!
     @IBOutlet var currentYearMonthLabel: UILabel!
     
     var personalScore: Int = 0
+    
+    //後々はDBから取得
+    let groupName = "testgroupA"
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         
-        //現在の年月を取得・表示
+        //現在の年月を取得
         let currentYear = getCurrentYearAndMonth()["year"]!
         let currentMonth = getCurrentYearAndMonth()["month"]!
-        
+        //画面表示
         currentYearMonthLabel.text = currentYear + "／" + currentMonth
         
         //DataBase(root positionを参照)インスタンス生成
         databaseRef = Database.database().reference()
         
+        //ユーザーIDの取得
+        let user = Auth.auth().currentUser
+        if user != nil {
+            if let user = user {
+                // The user's ID, unique to the Firebase project.
+                // Do NOT use this value to authenticate with your backend server,
+                // if you have one. Use getTokenWithCompletion:completion: instead.
+                let uid = user.uid
+                let email = user.email
+                let photoURL = user.photoURL
+                
+                do {
+                    let data = try Data(contentsOf: photoURL!)
+//                    usrIcon.image = UIImage(data: data)
+                }catch let err {
+                    print("Error : \(err.localizedDescription)")
+                }
+                userId = uid
+                print(uid, email, photoURL)
+            }
+        } else {
+            self.dismiss(animated: true, completion: nil)
+        }
+        
         //呼び出し時点でのユーザーのスコアを取得・表示
-        //読み取り
-        databaseRef.child("year").child(currentYear)
-                   .child("month").child(currentMonth)
-                   .child("users").child("hereisuserid")
-                   .observe(DataEventType.value, with: {(snapshot) in
-                        let value = snapshot.value as? [String : AnyObject] ?? [:]
-                        let fetchedUserScore = value["userscore"] as! Int
-                        
-                        self.personalScore = fetchedUserScore
-                        self.personalScoreView.text = String(self.personalScore)
-                   })
+//        databaseRef.child("scores").child(currentYear).child(currentMonth).child(groupName).child(userId)
+//                   .observe(DataEventType.value, with: {(snapshot) in
+//                        let value = snapshot.value as? [String : AnyObject] ?? [:]
+//                        let fetchedUserScore = value["userscore"] as! Int
+//
+//                        self.personalScore = fetchedUserScore
+//                        self.personalScoreView.text = String(self.personalScore)
+//                   })
         
     }
     
@@ -57,11 +85,11 @@ class PersonalScoreViewController: UIViewController {
         //現在の年月を取得
         let currentYear = getCurrentYearAndMonth()["year"]!
         let currentMonth = getCurrentYearAndMonth()["month"]!
+        
+        
         //書き込み
-        databaseRef.child("year").child(currentYear)
-                    .child("month").child(currentMonth)
-                    .child("users").child("hereisuserid").child("userscore")
-                    .setValue(personalScore)
+        databaseRef.child("scores").child(currentYear).child(currentMonth)
+                    .child(groupName).child(userId).setValue(personalScore)
     }
     
     
